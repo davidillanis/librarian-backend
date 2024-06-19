@@ -1,0 +1,31 @@
+#spring.application.name=micorservice-gateway
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: micorservice-gateway
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      mvc:
+        routes:
+          - id: microservice-library
+            uri: 'http://localhost:8083'
+            predicates:
+
+              - Path=/api/library/**
+          - id: microservice-issue
+            uri: 'http://localhost:8082'
+            predicates:
+              - Path=/api/book-issue/**
+
+eureka:
+  client:
+    register-with-eureka: false
+
