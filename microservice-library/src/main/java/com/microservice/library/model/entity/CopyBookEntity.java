@@ -11,6 +11,7 @@ import java.util.List;
 @Builder
 @ToString
 @Entity
+@Table(name = "Ejemplar")
 public class CopyBookEntity {
     @Id
     @Column(columnDefinition = "CHAR(25)")
@@ -24,9 +25,6 @@ public class CopyBookEntity {
 
     @Column(nullable = false)
     private boolean habiEjem;
-
-    @Column(nullable = false)
-    private boolean estaPresEjem;
 
     @ManyToOne
     @JoinColumn(name = "idLibr", nullable = false)

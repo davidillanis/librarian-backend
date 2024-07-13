@@ -64,26 +64,26 @@ public class AddDataServiceImpl {
 
     private void addCopyBook(){
         List<CopyBookEntity> copyBookEntities=List.of(
-                CopyBookEntity.builder().codiEjem("C001").locaEjem("LOCATION01-A").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(1)).build(),
-                CopyBookEntity.builder().codiEjem("C002").locaEjem("LOCATION02-B").estaEjem("Regular").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(1)).build(),
-                CopyBookEntity.builder().codiEjem("C003").locaEjem("LOCATION03-C").estaEjem("Malo").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(2)).build(),
-                CopyBookEntity.builder().codiEjem("C004").locaEjem("LOCATION04-A").estaEjem("Malo").habiEjem(false).estaPresEjem(true).bookEntity(bookService.getEntity(2)).build(),
-                CopyBookEntity.builder().codiEjem("C005").locaEjem("LOCATION05-B").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(3)).build(),
-                CopyBookEntity.builder().codiEjem("C006").locaEjem("LOCATION02-B").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(3)).build(),
-                CopyBookEntity.builder().codiEjem("C007").locaEjem("LOCATION01-C").estaEjem("Malo").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(4)).build(),
-                CopyBookEntity.builder().codiEjem("C008").locaEjem("LOCATION04-C").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(4)).build(),
-                CopyBookEntity.builder().codiEjem("C009").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(5)).build(),
-                CopyBookEntity.builder().codiEjem("C010").locaEjem("LOCATION02-B").estaEjem("Malo").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(5)).build(),
-                CopyBookEntity.builder().codiEjem("C011").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(6)).build(),
-                CopyBookEntity.builder().codiEjem("C012").locaEjem("LOCATION01-A").estaEjem("Malo").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(6)).build(),
-                CopyBookEntity.builder().codiEjem("C013").locaEjem("LOCATION02-A").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(7)).build(),
-                CopyBookEntity.builder().codiEjem("C014").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(7)).build(),
-                CopyBookEntity.builder().codiEjem("C015").locaEjem("LOCATION01-C").estaEjem("Malo").habiEjem(true).estaPresEjem(false).bookEntity(bookService.getEntity(8)).build(),
-                CopyBookEntity.builder().codiEjem("C016").locaEjem("LOCATION02-A").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(8)).build(),
-                CopyBookEntity.builder().codiEjem("C017").locaEjem("LOCATION05-B").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(9)).build(),
-                CopyBookEntity.builder().codiEjem("C018").locaEjem("LOCATION01-C").estaEjem("Malo").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(9)).build(),
-                CopyBookEntity.builder().codiEjem("C019").locaEjem("LOCATION02-A").estaEjem("Bueno").habiEjem(true).estaPresEjem(false).bookEntity(bookService.getEntity(10)).build(),
-                CopyBookEntity.builder().codiEjem("C020").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).estaPresEjem(true).bookEntity(bookService.getEntity(10)).build()
+                CopyBookEntity.builder().codiEjem("C001").locaEjem("LOCATION01-A").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(1)).build(),
+                CopyBookEntity.builder().codiEjem("C002").locaEjem("LOCATION02-B").estaEjem("Regular").habiEjem(true).bookEntity(bookService.getEntity(1)).build(),
+                CopyBookEntity.builder().codiEjem("C003").locaEjem("LOCATION03-C").estaEjem("Malo").habiEjem(true).bookEntity(bookService.getEntity(2)).build(),
+                CopyBookEntity.builder().codiEjem("C004").locaEjem("LOCATION04-A").estaEjem("Malo").habiEjem(false).bookEntity(bookService.getEntity(2)).build(),
+                CopyBookEntity.builder().codiEjem("C005").locaEjem("LOCATION05-B").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(3)).build(),
+                CopyBookEntity.builder().codiEjem("C006").locaEjem("LOCATION02-B").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(3)).build(),
+                CopyBookEntity.builder().codiEjem("C007").locaEjem("LOCATION01-C").estaEjem("Malo").habiEjem(true).bookEntity(bookService.getEntity(4)).build(),
+                CopyBookEntity.builder().codiEjem("C008").locaEjem("LOCATION04-C").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(4)).build(),
+                CopyBookEntity.builder().codiEjem("C009").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(5)).build(),
+                CopyBookEntity.builder().codiEjem("C010").locaEjem("LOCATION02-B").estaEjem("Malo").habiEjem(true).bookEntity(bookService.getEntity(5)).build(),
+                CopyBookEntity.builder().codiEjem("C011").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(6)).build(),
+                CopyBookEntity.builder().codiEjem("C012").locaEjem("LOCATION01-A").estaEjem("Malo").habiEjem(true).bookEntity(bookService.getEntity(6)).build(),
+                CopyBookEntity.builder().codiEjem("C013").locaEjem("LOCATION02-A").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(7)).build(),
+                CopyBookEntity.builder().codiEjem("C014").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(7)).build(),
+                CopyBookEntity.builder().codiEjem("C015").locaEjem("LOCATION01-C").estaEjem("Malo").habiEjem(true).bookEntity(bookService.getEntity(8)).build(),
+                CopyBookEntity.builder().codiEjem("C016").locaEjem("LOCATION02-A").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(8)).build(),
+                CopyBookEntity.builder().codiEjem("C017").locaEjem("LOCATION05-B").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(9)).build(),
+                CopyBookEntity.builder().codiEjem("C018").locaEjem("LOCATION01-C").estaEjem("Malo").habiEjem(true).bookEntity(bookService.getEntity(9)).build(),
+                CopyBookEntity.builder().codiEjem("C019").locaEjem("LOCATION02-A").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(10)).build(),
+                CopyBookEntity.builder().codiEjem("C020").locaEjem("LOCATION03-B").estaEjem("Bueno").habiEjem(true).bookEntity(bookService.getEntity(10)).build()
         );
         copyBookEntities.stream().forEach(t->copyBookService.createEntity(t));
     }
@@ -137,44 +137,44 @@ public class AddDataServiceImpl {
     private void addRequest(){
         StudentEntity studentEntity = studentRepository.findById(1).orElse(null);
         CopyBookEntity copyBookEntity=copyBookService.getEntity("C001");
-        RequestEntity requestEntity=new RequestEntity(0, LocalDate.now(), LocalDate.now(), studentEntity, copyBookEntity);
+        RequestEntity requestEntity=new RequestEntity(0, LocalDate.now(), "Pendiente", studentEntity, copyBookEntity);
         //requestService.createEntity(requestEntity);
 
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(1).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C001")).build());
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(1).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C002")).build());
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(1).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C003")).build());
 
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(2).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C004")).build());
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(2).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C001")).build());
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(2).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C005")).build());
 
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(3).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C001")).build());
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(3).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C006")).build());
 
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(4).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C001")).build());
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(4).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C007")).build());
 
-        requestService.createEntity(RequestEntity.builder().idSoli(0).fechPrestSoli(LocalDate.now()).fechRecoSoli(LocalDate.now())
+        requestService.createEntity(RequestEntity.builder().idSoli(0).EstaSoli("Pendiente").fechSoli(LocalDate.now())
                 .studentEntity(studentRepository.findById(5).orElse(null))
                 .copyBookEntity(copyBookService.getEntity("C001")).build());
 

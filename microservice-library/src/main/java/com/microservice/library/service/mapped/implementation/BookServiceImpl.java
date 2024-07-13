@@ -107,8 +107,8 @@ public class BookServiceImpl implements BookService {
     public CopyBookEntity searchCopyBookAvailable(String isbn) {
         BookEntity bookEntity=bookRepository.findBookEntityByIsbnLibr(isbn).orElse(null);
         if(bookEntity!=null) {
-            return bookEntity.getCopyBookEntities().stream().filter(copyBookEntity -> !copyBookEntity.isEstaPresEjem())
-                    .findFirst().orElse(null);
+            //return bookEntity.getCopyBookEntities().stream().filter(copyBookEntity -> !copyBookEntity.isEstaPresEjem())
+             //       .findFirst().orElse(null);
         }
         return null;
     }

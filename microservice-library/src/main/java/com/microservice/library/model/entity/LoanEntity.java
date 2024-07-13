@@ -11,6 +11,7 @@ import java.time.LocalDate;
 @ToString
 @Builder
 @Entity
+@Table(name = "Prestamo")
 public class LoanEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,6 +25,9 @@ public class LoanEntity {
 
     @Column(nullable = true, length = 95)
     private String obsePres;
+
+    @Column(nullable = false)
+    private int estaPres;
 
     @ManyToOne
     @JoinColumn(name = "codiEjem", nullable = false)

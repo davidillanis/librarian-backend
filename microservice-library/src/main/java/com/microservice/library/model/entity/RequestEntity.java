@@ -11,16 +11,17 @@ import java.time.LocalDate;
 @Builder
 @ToString
 @Entity
+@Table(name = "Solicitud")
 public class RequestEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idSoli;
 
     @Column(nullable = false)
-    private LocalDate fechPrestSoli;
+    private LocalDate fechSoli;
 
-    @Column(nullable = false)
-    private LocalDate fechRecoSoli;
+    @Column(nullable = false, length = 25)
+    private String EstaSoli;
 
     @ManyToOne
     @JoinColumn(name = "idAlumn", nullable = false)

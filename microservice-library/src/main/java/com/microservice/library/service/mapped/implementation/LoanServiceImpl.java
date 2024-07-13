@@ -40,7 +40,7 @@ public class LoanServiceImpl implements LoanService {
             loanEntity.setFechPres(obj.getFechPres());
             loanEntity.setFechDevoPres(obj.getFechDevoPres());
             loanEntity.setObsePres(obj.getObsePres());
-            //loanEntity.setEstaPres(obj.isEstaPres());
+            loanEntity.setEstaPres(obj.getEstaPres());
             loanEntity.setCopyBookEntity(obj.getCopyBookEntity());
             loanEntity.setLibrarianEntity(obj.getLibrarianEntity());
             loanEntity.setStudentEntity(obj.getStudentEntity());

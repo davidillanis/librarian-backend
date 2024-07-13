@@ -12,6 +12,7 @@ import java.util.List;
 @Builder
 @ToString
 @Entity
+@Table(name = "Libro")
 public class BookEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
