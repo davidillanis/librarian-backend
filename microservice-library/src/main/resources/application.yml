@@ -7,12 +7,12 @@ spring:
     name: microservice-library
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/biblioteca_pia
-    username: root
-    password: dabel
+    url: ${DB_URL2}
+    username: ${DB_USER2}
+    password: ${DB_PASS2}
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     database: mysql
     database-platform: org.hibernate.dialect.MySQL8Dialect
   config:

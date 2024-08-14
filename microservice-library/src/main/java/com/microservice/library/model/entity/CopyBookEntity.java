@@ -11,7 +11,6 @@ import java.util.List;
 @Builder
 @ToString
 @Entity
-@Table(name = "Ejemplar")
 public class CopyBookEntity {
     @Id
     @Column(columnDefinition = "CHAR(25)")

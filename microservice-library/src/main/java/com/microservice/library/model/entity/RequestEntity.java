@@ -11,7 +11,6 @@ import java.time.LocalDate;
 @Builder
 @ToString
 @Entity
-@Table(name = "Solicitud")
 public class RequestEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

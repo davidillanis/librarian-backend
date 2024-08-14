@@ -12,7 +12,6 @@ import jakarta.persistence.*;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "Usuario")
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

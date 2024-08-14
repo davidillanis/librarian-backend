@@ -11,7 +11,6 @@ import java.util.List;
 @ToString
 @Builder
 @Entity
-@Table(name = "Bibliotecario")
 public class LibrarianEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
