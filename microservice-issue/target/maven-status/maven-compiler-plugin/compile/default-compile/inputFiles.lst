@@ -1,0 +1,10 @@
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/MicroserviceIssueApplication.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/model/repository/BookRepository.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/model/entity/BookEntity.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/model/repository/IssueRepository.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/service/mapped/BookIssueService.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/controller/BookIssueController.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/model/entity/IssueEntity.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/service/mapped/impl/BookIssueServiceImpl.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/service/other/AddDataServiceImpl.java
+/home/davidabel/Documentos/IntellyIdea/librarian-backend/microservice-issue/src/main/java/com/microservice/issue/util/dto/BookIssueDTO.java

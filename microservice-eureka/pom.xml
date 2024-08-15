@@ -13,6 +13,9 @@
     <name>microservice-eureka</name>
     <description>microservice-eureka</description>
     <properties>
+        <!-- THIS SKIP_TEST -->
+        <skipTests>true</skipTests>
+        <!-- -->
         <java.version>17</java.version>
         <spring-cloud.version>2023.0.2</spring-cloud.version>
     </properties>

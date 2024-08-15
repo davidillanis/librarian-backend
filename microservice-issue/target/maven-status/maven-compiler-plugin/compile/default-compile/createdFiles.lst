@@ -1,0 +1,13 @@
+com/microservice/issue/util/dto/BookIssueDTO$BookIssueDTOBuilder.class
+com/microservice/issue/model/entity/IssueEntity$IssueEntityBuilder.class
+com/microservice/issue/MicroserviceIssueApplication.class
+com/microservice/issue/model/entity/BookEntity$BookEntityBuilder.class
+com/microservice/issue/service/mapped/impl/BookIssueServiceImpl.class
+com/microservice/issue/controller/BookIssueController.class
+com/microservice/issue/model/entity/BookEntity.class
+com/microservice/issue/model/entity/IssueEntity.class
+com/microservice/issue/service/other/AddDataServiceImpl.class
+com/microservice/issue/util/dto/BookIssueDTO.class
+com/microservice/issue/model/repository/IssueRepository.class
+com/microservice/issue/model/repository/BookRepository.class
+com/microservice/issue/service/mapped/BookIssueService.class
